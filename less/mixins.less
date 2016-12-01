@@ -1,7 +1,3 @@
-// Mixins
-
-// Bootstrap Button Variant
-
 .button-variant(@color; @background; @border) {
   color: @color;
   background-color: @background;
@@ -33,36 +29,26 @@
       border-color: @border;
     }
   }
-
   .badge {
     color: @background;
     background-color: @color;
   }
 }
-
-// Background Cover Mixin
-
 .background-cover() {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
-// Font Mixins
-
 .serif-font() {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .script-font() {
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-
 .body-font() {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 .heading-font() {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
