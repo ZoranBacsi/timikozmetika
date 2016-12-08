@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Amarillo';
+  src: url('../fonts/Amarillo.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -147,7 +153,9 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #ff6666;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: Amarillo;
+  margin-left: 0px !important;
+  margin-top: 25px !important;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -202,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 1px 1px 1px #ffffff, -1px -1px 1px #ffffff;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -218,7 +226,8 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.9em;
+    margin-top: 5px !important;
+    font-size: 1.5em;
     text-shadow: none;
   }
 }
