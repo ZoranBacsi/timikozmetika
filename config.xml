@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery>
+	<image
+			imageURL="img/images/wide.jpeg"
+			thumbURL="img/thumbs/wide.jpeg"
+			linkURL="img/images/wide.jpeg"
+			linkTarget="_blank">
+	<title></title>
+	<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/wide.jpeg"
+		   thumbURL="img/thumbs/wide.jpeg"
+		   linkURL="img/images/wide.jpeg"
+		   linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/wide.jpeg"
+			thumbURL="img/thumbs/wide.jpeg"
+		   	linkURL="img/images/wide.jpeg"
+		   	linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+</juiceboxgallery>
