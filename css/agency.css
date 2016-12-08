@@ -1,6 +1,23 @@
+@font-face {
+  font-family: 'Amarillo';
+  src: url('../fonts/Amarillo.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.price {
+  padding: 0px !important;
+  margin: 0px !important;
+  padding-left: 10px !important;
+}
+.price-title {
+  padding: 0px !important;
+  margin: 0px !important;
+  margin-bottom: 10px !important;
+  font-weight: bold !important;
 }
 .text-muted {
   color: #777777;
@@ -147,7 +164,9 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #ff6666;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: Amarillo;
+  margin-left: 0px !important;
+  margin-top: 25px !important;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -202,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 4em;
+    font-size: 3em;
     text-shadow: 1px 1px 1px #ffffff, -1px -1px 1px #ffffff;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -218,7 +237,8 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.9em;
+    margin-top: 5px !important;
+    font-size: 1.5em;
     text-shadow: none;
   }
 }
@@ -275,7 +295,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -289,10 +309,11 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
+  line-height: 25px;
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 .service-heading {
@@ -344,7 +365,7 @@ section h3.section-subheading {
   margin: 0 auto;
   background-color: white;
   text-align: center;
-  padding: 25px;
+  padding: 10px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -363,102 +384,6 @@ section h3.section-subheading {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
-}
-.timeline {
-  list-style: none;
-  padding: 0;
-  position: relative;
-}
-.timeline:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #f1f1f1;
-  left: 40px;
-  margin-left: -1.5px;
-}
-.timeline > li {
-  margin-bottom: 50px;
-  position: relative;
-  min-height: 50px;
-}
-.timeline > li:before,
-.timeline > li:after {
-  content: " ";
-  display: table;
-}
-.timeline > li:after {
-  clear: both;
-}
-.timeline > li .timeline-panel {
-  width: 100%;
-  float: right;
-  padding: 0 20px 0 100px;
-  position: relative;
-  text-align: left;
-}
-.timeline > li .timeline-panel:before {
-  border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
-  right: auto;
-}
-.timeline > li .timeline-panel:after {
-  border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
-}
-.timeline > li .timeline-image {
-  left: 0;
-  margin-left: 0;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  z-index: 100;
-  background-color: #ff6666;
-  color: white;
-  border-radius: 100%;
-  border: 7px solid #f1f1f1;
-  text-align: center;
-}
-.timeline > li .timeline-image h4 {
-  font-size: 10px;
-  margin-top: 12px;
-  line-height: 14px;
-}
-.timeline > li.timeline-inverted > .timeline-panel {
-  float: right;
-  text-align: left;
-  padding: 0 20px 0 100px;
-}
-.timeline > li.timeline-inverted > .timeline-panel:before {
-  border-left-width: 0;
-  border-right-width: 15px;
-  left: -15px;
-  right: auto;
-}
-.timeline > li.timeline-inverted > .timeline-panel:after {
-  border-left-width: 0;
-  border-right-width: 14px;
-  left: -14px;
-  right: auto;
-}
-.timeline > li:last-child {
-  margin-bottom: 0;
-}
-.timeline .timeline-heading h4 {
-  margin-top: 0;
-  color: inherit;
-}
-.timeline .timeline-heading h4.subheading {
-  text-transform: none;
-}
-.timeline .timeline-body > p,
-.timeline .timeline-body > ul {
-  margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .timeline:before {
@@ -740,4 +665,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #ff6666;
+}
+.white {
+  color: white;
 }

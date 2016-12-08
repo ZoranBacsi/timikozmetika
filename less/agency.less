@@ -8,6 +8,19 @@ body {
     .body-font;
 }
 
+.price{
+    padding:0px !important;
+    margin:0px !important;
+    padding-left: 10px !important;
+}
+
+.price-title{
+    padding:0px !important;
+    margin:0px !important;
+    margin-bottom: 10px !important;
+    font-weight: bold !important;
+}
+
 .text-muted {
     color: @gray-light;
 }
@@ -85,7 +98,9 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
-        .script-font;
+        font-family: Amarillo;
+        margin-left: 0px !important;
+        margin-top: 25px !important;
         &:hover,
         &:focus,
         &:active,
@@ -143,7 +158,8 @@ h1, h2, h3, h4, h5, h6 {
         transition: padding 0.3s;
         border: none;
         .navbar-brand {
-            font-size: 4em;
+            font-size: 3em;
+
             text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
@@ -162,7 +178,8 @@ h1, h2, h3, h4, h5, h6 {
         background-color: @gray-darker;
         padding: 10px 0;
         .navbar-brand {
-            font-size: 1.9em;
+            margin-top: 5px !important;
+            font-size: 1.5em;
             text-shadow: none;
         }
     }
@@ -222,7 +239,7 @@ header {
 // Global Section Styles
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
     h2.section-heading {
         font-size: 40px;
         margin-top: 0;
@@ -235,12 +252,13 @@ section {
         font-style: italic;
         font-weight: 400;
         margin-bottom: 75px;
+        line-height: 25px;
     }
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
@@ -298,7 +316,7 @@ section {
             margin: 0 auto;
             background-color: white;
             text-align: center;
-            padding: 25px;
+            padding: 10px;
             h4 {
                 text-transform: none;
                 margin: 0;
@@ -320,109 +338,6 @@ section {
     #portfolio {
         .portfolio-item {
             margin: 0 0 30px;
-        }
-    }
-}
-
-// Timeline
-
-.timeline {
-    list-style: none;
-    padding: 0;
-    position: relative;
-    &:before {
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        content: "";
-        width: 2px;
-        background-color: #f1f1f1;
-        left: 40px;
-        margin-left: -1.5px;
-    }
-    > li {
-        margin-bottom: 50px;
-        position: relative;
-        min-height: 50px;
-        &:before,
-        &:after {
-            content: " ";
-            display: table;
-        }
-        &:after {
-            clear: both;
-        }
-        .timeline-panel {
-            width: 100%;
-            float: right;
-            padding: 0 20px 0 100px;
-            position: relative;
-            text-align: left;
-            &:before {
-                border-left-width: 0;
-                border-right-width: 15px;
-                left: -15px;
-                right: auto;
-            }
-            &:after {
-                border-left-width: 0;
-                border-right-width: 14px;
-                left: -14px;
-                right: auto;
-            }
-        }
-        .timeline-image {
-            left: 0;
-            margin-left: 0;
-            width: 80px;
-            height: 80px;
-            position: absolute;
-            z-index: 100;
-            background-color: @theme-primary;
-            color: white;
-            border-radius: 100%;
-            border: 7px solid #f1f1f1;
-            text-align: center;
-            h4 {
-                font-size: 10px;
-                margin-top: 12px;
-                line-height: 14px;
-            }
-        }
-        &.timeline-inverted > .timeline-panel {
-            float: right;
-            text-align: left;
-            padding: 0 20px 0 100px;
-            &:before {
-                border-left-width: 0;
-                border-right-width: 15px;
-                left: -15px;
-                right: auto;
-            }
-            &:after {
-                border-left-width: 0;
-                border-right-width: 14px;
-                left: -14px;
-                right: auto;
-            }
-        }
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
-    .timeline-heading {
-        h4 {
-            margin-top: 0;
-            color: inherit;
-            &.subheading {
-                text-transform: none;
-            }
-        }
-    }
-    .timeline-body {
-        > p,
-        > ul {
-            margin-bottom: 0;
         }
     }
 }
@@ -737,4 +652,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+.white{
+    color: white;
 }
