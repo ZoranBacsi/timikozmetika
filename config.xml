@@ -2,26 +2,58 @@
 
 <juiceboxgallery>
 	<image
-			imageURL="img/images/wide.jpeg"
-			thumbURL="img/thumbs/wide.jpeg"
-			linkURL="img/images/wide.jpeg"
+			imageURL="img/images/001.png"
+			thumbURL="img/thumbs/001.png"
+			linkURL="img/images/001.png"
 			linkTarget="_blank">
-	<title></title>
-	<caption></caption>
-	</image>
-	<image
-			imageURL="img/images/wide.jpeg"
-		   thumbURL="img/thumbs/wide.jpeg"
-		   linkURL="img/images/wide.jpeg"
-		   linkTarget="_blank">
 		<title></title>
 		<caption></caption>
 	</image>
 	<image
-			imageURL="img/images/wide.jpeg"
-			thumbURL="img/thumbs/wide.jpeg"
-		   	linkURL="img/images/wide.jpeg"
+			imageURL="img/images/002.png"
+		   	thumbURL="img/thumbs/002.png"
+		   	linkURL="img/images/002.png"
 		   	linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/003.png"
+			thumbURL="img/thumbs/003.png"
+		   	linkURL="img/images/003.png"
+		   	linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/004.png"
+			thumbURL="img/thumbs/004.png"
+			linkURL="img/images/004.png"
+			linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/005.png"
+			thumbURL="img/thumbs/005.png"
+			linkURL="img/images/005.png"
+			linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/006.png"
+			thumbURL="img/thumbs/006.png"
+			linkURL="img/images/006.png"
+			linkTarget="_blank">
+		<title></title>
+		<caption></caption>
+	</image>
+	<image
+			imageURL="img/images/007.png"
+			thumbURL="img/thumbs/007.png"
+			linkURL="img/images/007.png"
+			linkTarget="_blank">
 		<title></title>
 		<caption></caption>
 	</image>
