@@ -177,6 +177,7 @@ h1, h2, h3, h4, h5, h6 {
                 color: white;
                 &:hover,
                 &:focus {
+                    background-color: transparent;
                     color: @theme-primary;
                     outline: none;
                 }
@@ -184,14 +185,13 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
     .navbar-nav>.active>a {
-        border-radius: 0;
-        color: white;
-        background-color: @theme-primary;
+        background-color: transparent;
+        color: @theme-primary;
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
-        color: white;
-        background-color: darken(@theme-primary, 10%);
+        background-color: transparent;
+        color: @theme-primary;
     }
 }
 
@@ -597,15 +597,6 @@ ul.social-buttons {
 
 // Highlight Color Customization
 
-::-moz-selection {
-    text-shadow: none;
-    background: @theme-primary;
-}
-
-::selection {
-    text-shadow: none;
-    background: @theme-primary;
-}
 
 img::selection {
     background: transparent;

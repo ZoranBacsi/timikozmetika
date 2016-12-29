@@ -236,18 +236,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
+  background-color: transparent;
   color: #ff6666;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
-  border-radius: 0;
-  color: white;
-  background-color: #ff6666;
+  background-color: transparent;
+  color: #ff6666;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #ff3333;
+  background-color: transparent;
+  color: #ff6666;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -614,14 +614,6 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
-}
-::-moz-selection {
-  text-shadow: none;
-  background: #ff6666;
-}
-::selection {
-  text-shadow: none;
-  background: #ff6666;
 }
 img::selection {
   background: transparent;
