@@ -8,6 +8,21 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+#map {
+  width: 100%;
+  height: 400px;
+}
+#contact {
+  padding-bottom: 0px;
+}
+.map-container {
+  width: 100%;
+  padding: 0px;
+}
+.address {
+  padding: 0px;
+  margin: 10px !important;
+}
 .price {
   padding: 0px !important;
   margin: 0px !important;
@@ -486,7 +501,6 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
