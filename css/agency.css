@@ -146,52 +146,57 @@ fieldset[disabled] .btn-primary.active {
   color: #ff6666;
   background-color: #ffffff;
 }
-.btn-xl {
+.btn-action {
   color: #ffffff;
   background-color: #ff6666;
   border-color: #ff6666;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  border-radius: 3px;
-  font-size: 18px;
-  padding: 20px 40px;
+  font-weight: 400;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 10px;
 }
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active,
+.btn-action.active,
+.open .dropdown-toggle.btn-action {
   color: #ffffff;
   background-color: #ff3333;
   border-color: #ff2929;
 }
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+.btn-action:active,
+.btn-action.active,
+.open .dropdown-toggle.btn-action {
   background-image: none;
 }
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
+.btn-action.disabled,
+.btn-action[disabled],
+fieldset[disabled] .btn-action,
+.btn-action.disabled:hover,
+.btn-action[disabled]:hover,
+fieldset[disabled] .btn-action:hover,
+.btn-action.disabled:focus,
+.btn-action[disabled]:focus,
+fieldset[disabled] .btn-action:focus,
+.btn-action.disabled:active,
+.btn-action[disabled]:active,
+fieldset[disabled] .btn-action:active,
+.btn-action.disabled.active,
+.btn-action[disabled].active,
+fieldset[disabled] .btn-action.active {
   background-color: #ff6666;
   border-color: #ff6666;
 }
-.btn-xl .badge {
+.btn-action .badge {
   color: #ff6666;
   background-color: #ffffff;
+}
+.action {
+  max-height: 400px;
+  float: left;
+  margin: 0px 30px;
 }
 .btn-modal {
   margin: 10px;
@@ -346,7 +351,7 @@ section h3.section-subheading {
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 35px;
   line-height: 25px;
 }
 @media (min-width: 768px) {
