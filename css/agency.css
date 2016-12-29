@@ -338,7 +338,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -353,11 +353,6 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 35px;
   line-height: 25px;
-}
-@media (min-width: 768px) {
-  section {
-    padding: 50px 0;
-  }
 }
 .service-heading {
   margin: 15px 0;
@@ -538,6 +533,28 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
+  background-color: #ff6666;
+}
+ul.social-buttons_light {
+  margin-bottom: 10px;
+}
+ul.social-buttons_light li a {
+  display: block;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons_light li a:hover,
+ul.social-buttons_light li a:focus,
+ul.social-buttons_light li a:active {
   background-color: #ff6666;
 }
 .btn:focus,
