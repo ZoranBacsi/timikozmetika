@@ -41,20 +41,4 @@
 		<title></title>
 		<caption></caption>
 	</image>
-	<image
-			imageURL="img/images/006.png"
-			thumbURL="img/thumbs/006.png"
-			linkURL="img/images/006.png"
-			linkTarget="_blank">
-		<title></title>
-		<caption></caption>
-	</image>
-	<image
-			imageURL="img/images/007.png"
-			thumbURL="img/thumbs/007.png"
-			linkURL="img/images/007.png"
-			linkTarget="_blank">
-		<title></title>
-		<caption></caption>
-	</image>
 </juiceboxgallery>
