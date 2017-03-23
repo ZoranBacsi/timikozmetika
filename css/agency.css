@@ -57,6 +57,18 @@ body {
 .text-primary {
   color: #ff6666;
 }
+.new_logo {
+  width: 23px;
+  float: left;
+  margin-right: 5px;
+}
+.new_portfolio {
+  color: white;
+  background-color: #ff6666;
+}
+.new_portfolio .portfolio-caption {
+  background-color: #ff6666 !important;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
